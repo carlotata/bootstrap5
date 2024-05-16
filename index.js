@@ -2,6 +2,7 @@ var userName = "";
 
 function Start() {
     document.getElementById('button').hidden = true;
+    document.getElementById('welcomeMessage').innerHTML = '<h3>INTERACTIVE S-QUIZ</h3>'
     askName();
 }
 function ansWrong(){
